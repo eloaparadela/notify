@@ -1,0 +1,82 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 500px;
+    background-image: url(imagem/banner.png);
+    background-repeat: no-repeat;
+    border-top: 10px solid rgb(17,207,112);
+
+}
+header img{
+   border-left: 0;
+   border-right: 0;
+   border-bottom:0;
+   margin: 0;
+   padding: 0;
+}
+#filha1{
+    align-items: center;
+    font-family: Pacifico;
+    color: aliceblue;
+    font-size: 25px;
+    font-style: initial;
+    margin-top: 120px;
+    margin-left: 20%;
+}
+#filha2{
+    margin-top: 25px;
+    margin-left: 20%;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+#filha3{
+    margin-top: 2%;
+    margin-left: 20%;
+    display: flex;
+}
+#img1{
+    margin-right: 2%;
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 1%;
+    border-radius: 50%;
+}
+#img2{
+    margin-right: 2%;
+    margin-left: 0%;
+    background-color:rgba(0, 0, 0, 0.397);
+    padding: 1%;
+    border-radius: 50%;
+}
+#img3{
+    margin-right: 2%;
+    margin-left: 0;
+    background-color:rgba(0, 0, 0, 0.397) ;
+    padding: 1%;
+    border-radius: 50%;
+}
+#filha3 img:hover{
+    background-color: rgb(17,207,112);
+}
+
+section{
+    background-color: rgb(226, 222, 222);
+    display: flex;
+    flex-flow: row;
+    height: 300px;
+}
+
+#corpo img{
+    background-color: rgb(17,207,112);
+    border-radius: 100%;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}
